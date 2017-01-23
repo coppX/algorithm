@@ -21,8 +21,8 @@ struct TreeNode{
     void inVist(TreeNode<T> *node);
     void backVist(TreeNode<T> *node);
     
-    bool isEmpty(TreeNode<T> *node)
-    int size(TreeNode<T> *node)
+    bool isEmpty(TreeNode<T> *node);
+    int size(TreeNode<T> *node);
  private:
     int count;
     TreeNode<T> *root;
